@@ -1,0 +1,12 @@
+[project]
+name = "advanced-langgraph-flows"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=1.0.8",
+]
+
+[tool.ruff.lint]
+ignore = ["F401"]
